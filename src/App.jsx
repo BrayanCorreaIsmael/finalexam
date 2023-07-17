@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { Header } from './Components/Header/Header';
 import { ProductList } from './Components/Main/ProductList';
-import Footer from './Components/Footer/Footer'
-import Form from './Components/Form/Form';
+
 
 
 function App() {
