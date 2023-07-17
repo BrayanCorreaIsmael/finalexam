@@ -1,0 +1,32 @@
+footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Agregado para permitir envolver las columnas en dispositivos estrechos */
+  }
+  
+  .column {
+    flex-basis: 20%; /* Ancho de cada columna */
+    max-width: 20%; /* Agregado para evitar que las columnas se contraigan demasiado */
+    margin-bottom: 10px; /* Espacio entre las columnas */
+  }
+  
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  /* Estilos responsivos */
+  
+  

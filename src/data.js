@@ -41,7 +41,7 @@ export const data = [
 	},
 	{
 		id: 6,
-		img: 'https://images.unsplash.com/photo-1649867219867-3faeab653df9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=436&q=80',
+		img: 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
 		nameProduct: 'Gaseosa Marca Cola',
 		price: 120,
 		quantity: 1,
