@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Header } from './Components/Header/Header';
 import { ProductList } from './Components/Main/ProductList';
+import {NavLink, Route, Routes, Router} from 'react-router-dom'
+import Form from './Components/Form/Form';
 
 
 
@@ -11,14 +13,15 @@ function App() {
 
 	return (
 		<>
-			{ <Header
+			 <Header
 				allProducts={allProducts}
 				setAllProducts={setAllProducts}
 				total={total}
 				setTotal={setTotal}
 				countProducts={countProducts}
 				setCountProducts={setCountProducts}
-			/> }
+			/>
+      
 			<ProductList
 				allProducts={allProducts}
 				setAllProducts={setAllProducts}
@@ -27,8 +30,10 @@ function App() {
 				countProducts={countProducts}
 				setCountProducts={setCountProducts}
 			/>
-			{/* <Footer></Footer> 
-			<Form></Form> */}
+      
+			{/* <Footer></Footer>  */}
+			{/* <Form></Form>  */}
+
 		</>
 	);
 }
