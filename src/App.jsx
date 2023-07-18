@@ -3,6 +3,7 @@ import { Header } from './Components/Header/Header';
 import { ProductList } from './Components/Main/ProductList';
 import {NavLink, Route, Routes, Router} from 'react-router-dom'
 import Form from './Components/Form/Form';
+import DetailPage  from './Components/DetailPage/DetailPage'
 
 
 
@@ -30,7 +31,11 @@ function App() {
 				countProducts={countProducts}
 				setCountProducts={setCountProducts}
 			/>
-      
+      <Routes>
+        <Route path='/' element={<ProductList/>}/> 
+        <Route path='/form' element={<Form/>}/>
+        <Route path='/form/:id' element={<DetailPage/>}/> 
+      </Routes>
 			{/* <Footer></Footer>  */}
 			{/* <Form></Form>  */}
 

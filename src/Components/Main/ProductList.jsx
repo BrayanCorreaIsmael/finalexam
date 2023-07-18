@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import { data } from "../../data";
+
 
 
 
@@ -41,6 +43,7 @@ export const ProductList = ({
 						<button onClick={() => onAddProduct(product)}>
 							Añadir al carrito
 						</button>
+						<Link to={'/form/' + product.id }>Ver Nombre</Link>
 					</div>
 				</div>
 			))}
